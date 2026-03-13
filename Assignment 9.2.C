@@ -7,7 +7,7 @@ int main()
   int a,n,sum=0;
   printf("Enter a number");
   scanf("%d",&n);
-  for(a=1;a<=n;a++) 
+  for(a=2;a<=n;a=a+2) 
   {
    sum=sum+a;
   }
@@ -19,6 +19,6 @@ int main()
 Run.... 
 
 
-Enter a number5
-sum=15
+Enter a number10
+sum=30
 [Process completed - press Enter]
